@@ -1,0 +1,10 @@
+services:
+  project:
+    container_name: finalprojectcontainer
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - DATABASE_URL=sqlite:////code/db.sqlite3
