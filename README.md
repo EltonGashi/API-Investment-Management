@@ -32,4 +32,4 @@ Closing Date : http://127.0.0.1:8000/api/trade/closing-date/<str:loan_id>/
 
 Get Cashflows : http://127.0.0.1:8000/account/logout/ , and pass the token and you will be logged out .
 
-5. If u want to log out go to this link : http://127.0.0.1:8000/api/trade/gross-expected-amount/<str:loan_id>/<str:reference_date>/
+5. If u want to log out go to this link : http://127.0.0.1:8000/account/logout/
