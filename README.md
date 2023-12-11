@@ -13,7 +13,8 @@ password Password@123
 password2 Password@123
 
 3. after you get the token go to this link : http://127.0.0.1:8000/api/upload/ , go to Header,
-   and pass Authorization as key and as values pass Token and the token you got from register and upload files
+   and pass Authorization as key and as values pass Token and the token you got from register and upload files,
+   also dont forget to upload the trade file first then the cashflows file
 
 dont forget to pass a POST method
 
